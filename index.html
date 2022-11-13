@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Formulário de cadastro</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="image">
+        <img src="assets/img/n_49616_febdb77065779dcaa45360d79bf0cf12.jpg" />
+      </div>
+
+      <div class="form" id="form">
+        <form action="#">
+          <div class="title">
+            <h1>Cadastre-se</h1>
+          </div>
+            <div class="input-box">
+              <label for="firstname">Primeiro nome</label>
+              <input
+                id="firstname"
+                value=""
+                type="text"
+                placeholder="Digite seu primeiro nome"
+                required
+              />
+              <span class="span-required"
+                >Nome deve ter no mínimo 2 caracteres</span
+              >
+            </div>
+
+            <div class="input-box">
+              <label for="lastname">Sobrenome</label>
+              <input
+                id="lastname"
+                value=""
+                type="text"
+                placeholder="Digite seu sobrenome"
+                required
+              />
+              <span class="span-required"
+                >Sobre deve ter no mínimo 2 caracteres</span
+              >
+            </div>
+
+            <div class="input-box">
+              <label for="idade">Idade</label>
+              <input
+                id="idade"
+                value=""
+                type="number"
+                placeholder="Digite sua idade"
+                required
+              />
+              <span class="span-required">Deve ser maior de idade 18+</span>
+            </div>
+
+            <div class="input-box">
+              <label for="profissão">Profissão</label>
+              <input
+                id="profissão"
+                value=""
+                type="text"
+                placeholder="Digite sua profissão"
+                required
+              />
+              <span class="span-required">Digite sua profissão</span>
+            </div>
+
+            <div class="input-box">
+              <label for="email">E-mail</label>
+              <input
+                id="email"
+                value=""
+                type="email"
+                placeholder="Digite seu e-mail"
+                required
+              />
+              <span class="span-required">Siga o exemplo xxxx@xxxx.com</span>
+            </div>
+
+            <div class="input-box">
+              <label for="telefone">Telefone</label>
+              <input
+                id="telefone"
+                value=""
+                type="tel"
+                placeholder="(xx) x xxxx-xxxx"
+                required
+              />
+              <span class="span-required">Digite um numero valido</span>
+            </div>
+
+            <div class="input-box">
+              <label for="data de preenchimento">Data de Preenchimento</label>
+              <input
+                id="datadepreenchimento"
+                value=""
+                type="date"
+                placeholder="data de preenchimento"
+                required
+              />
+              <span class="span-required">Digite a data atual</span>
+            </div>
+            <div class="bttcadastrar">
+                <button id="enviar">Cadastrar</button>
+                
+            </div>
+            <div class="continue-button">
+
+              <input type="text" id="pesquisar" value="" />
+              <button id="pesquisarName">Consultar</button>
+            </div>
+        </form>
+      </div>
+    </main>
+
+    <script type="module" src="./assets/js/index.js"></script>
+  </body>
+</html>
